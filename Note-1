@@ -11,3 +11,5 @@ Some of those include
     a. \n - used to print the messsage from new line
     b. \t - used to print the message by giving the space of a TAB button on the keyboard. This generally includes 8 character spacing.
 6. return 0; command is used to tell the computer that the program written can be ended succesfully at that point.. and NO code written after that point will be accepted by the computer.
+7. The computer starts to analyze the code from where the main() has been written.
+8. The computer analyzes the code step by step from the main function.
