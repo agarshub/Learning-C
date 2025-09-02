@@ -1,14 +1,23 @@
-/* Write a program to read one integer , one character and one float and print them. */
+/* Write a program to read an integer and print it. */
 
 #include<stdio.h>
 int main()
 {
-    int a;
-    char b;
-    float c;
-    printf("Enter an integer, a character and a float: ");
-    scanf("%d %c%f",&a,&b,&c);  // in some softwares like Turbo C, there should be a space before %c in scanf to avoid skipping the character input.
-    printf("The given data is : ");
-    printf("%d   %c   %f",a,b,c);
+    int x;
+    printf("Enter an integer: ");
+    scanf("%d",&x); // %d is the format specifier for integer.
+    printf("The given integer is : %d",x);
     return 0;
 }
+
+/* if i put inpput as 5 then it gets stored in the address 100 .. &x =100 and the value of x is 5
+    x 
+    100
+    -----
+    5
+*/
+
+
+// %d is used as a placeholder for integer values in the format string of printf and scanf functions.
+// & is the address operator. It is used to get the address of a variable. In scanf, it is used to store the input value at the address of the variable.
+
