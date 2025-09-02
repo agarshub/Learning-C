@@ -1,6 +1,6 @@
 /* Write a C program to print a message. */
 
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
     printf("Hello,\n");
