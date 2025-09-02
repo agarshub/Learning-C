@@ -10,6 +10,7 @@ int main()
     printf("The perimeter of the square is: %d",peri);
     return 0;
 }
+
 /*
 perimeter of square = 4 * side
 side        perimeter
