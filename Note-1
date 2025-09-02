@@ -1,0 +1,13 @@
+It is very important to know a few points about C langugae.
+
+Some of those include
+1. Every statement in a C program that prints a message should end with ; 
+    This gives the computer the clarity that the message has been completed and no code will be written on that line.
+2. #include<stdio.h> is a library which means Standard (std) input-output (io) = stdio
+3. There are a total of 47 libraries created initially in C.
+4. The printf(""); Function written in the code belongs to stdio.h library.. without which the computer throws an Error.
+5. There are a set of commands using the backslash (\) which often help with spacing between outputs.
+    Some of them include..
+    a. \n - used to print the messsage from new line
+    b. \t - used to print the message by giving the space of a TAB button on the keyboard. This generally includes 8 character spacing.
+6. return 0; command is used to tell the computer that the program written can be ended succesfully at that point.. and NO code written after that point will be accepted by the computer.
