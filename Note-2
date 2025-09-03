@@ -1,0 +1,22 @@
+1. Format Specifiers are used as keywords in C langugage to print a particular value stored inside a variable.
+    These are generally and more often used in printf() statements as they tell the datatype of the vairbales.
+
+2. Some format specifiers include:
+    %d - int (integer)
+    %c - char (character)
+    %f - float (float)
+    %ld - long int (long integer- here size is more)
+    %s - short int (short integer - here size is less than int)
+    %lf - double (long float- it is floating point number but larger value than float)
+    %Lf - long double (long Double whose size is larger than double)
+    %s - char array or string
+
+    -> Here, the int char float double long are all known as datatypes
+
+3. definition section is where we define values to be used in later part of the code.
+4. for defining such things we use the command #define value_name value.
+5. we can pass values through this section which will replaced by the later part of code.
+    Example: #define Circumferece(x) 2*3.14*x
+    wherever the Circumferece(value) is written it gets substitued with 2*3.14*value
+
+    note that the variable need not be used as x it can be r,z ,y or any particular char and even x also.. it can also be a value..
