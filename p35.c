@@ -14,3 +14,8 @@ int main()
     printf("The value of n divided by 8 is %d \n", n >> 3); //2^3 = 8
     return 0;
 }
+
+/*
+Write this program with different input values to see how it works.
+it works differently for odd and even numbers.
+*/
