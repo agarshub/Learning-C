@@ -21,3 +21,8 @@ int main()
     printf("The size of char is: %zu bytes\n", sizeof(g));
     return 0;
 }
+
+// Note that here already declared variables are used to find the size of the data types.
+// we can find the size of data types directly by using sizeof(data_type) like sizeof(int), sizeof(float) etc.
+// %zu is a format specifier used to print size_t type values which is the return type of sizeof operator.
+// It is recommended to use %zu for printing the result of sizeof operator to avoid any warnings or errors.
