@@ -1,0 +1,20 @@
+1. There are many Operators used in C programming Languages
+
+2. Operator Tools are of 6 types
+    
+    1) Arithmetic +, -, *, /, %
+    2) Relational Operator >, <, >=, <=, ==
+    3) Logical &&, ||, !
+    4) Assignment operator =, +=, -=, *=, /=, %=
+    5) sizeof operator
+    6) Bitwise operator &, |
+
+3. incrementation of a value of a variable is of two types:
+    ++ is the operator used incrementation.
+    There are two types
+    post incrementation, pre incrementation 
+
+4. decrementation of a value of a variable is of two types:
+    -- is the operator used decrementation.
+    There are two types
+    post decrementation, pre decrementation 
