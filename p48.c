@@ -10,3 +10,6 @@ int main()
 
     return 0;
 }
+
+// note that for a character to be a digit it must be between '0' and '9' in the ASCII table.\
+// its ascii value must be between 48 and 57.
