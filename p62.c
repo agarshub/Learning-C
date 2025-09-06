@@ -11,4 +11,5 @@ int main()
     {
         printf("Digit\n");
     }
+    return 0;
 }
