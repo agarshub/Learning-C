@@ -10,6 +10,7 @@ int main()
     {
         printf("Positive Value");
     }
+    return 0;
 }
 
 /* This is simple if statement 
