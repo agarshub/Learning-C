@@ -1,0 +1,45 @@
+Loops(p90 - p)
+-----
+
+-> Loops are just like goto statements but they are more readble since the conditions are previously known.
+-> They are of two types.
+    -> Top testing loops (or) Entry control loop
+            (condition)
+            {
+                statement
+                statement
+                statement
+                .
+                .
+                ..
+                statements
+            }
+    
+    -> Bottom testing loops (or) Exit control loop
+            {
+                statement
+                statement
+                statement
+                .
+                .
+                ..
+                statements
+            }(condition)
+    
+    
+1) Entry Control loops (or) Top Testing loops
+    -> These are furtehr divided into 
+        1. For Loop
+        2. While Loop
+2) Exit control loop (or) Bottom Testing Loops
+    -> The type of this loop is 
+        1. Do While Loop
+
+Some important points
+---------------------
+
+1. Generally we use top testing loops more often.. but they are cases where do while loops are more better to use.
+2. When question is in should we use WHILE loop or FOR loop. it depends on what problem we are solving.
+3. If we know that how many times the number of times loop is gonna run ,.. use for loop... 
+4. but if we have no idea of about how many times the loop can run based on a condition which we dont know.. its better to use while loop
+5. This simple strategy might be helpful in solving the codes.
