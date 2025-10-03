@@ -1,0 +1,56 @@
+Arrays
+------
+
+Ever thought that a single variable can hold multiple data..
+one int a can store multiple integers..?
+
+Is this actually possible and this is possible?
+
+Yes this is..
+by using arrays this possible..
+
+BUTT
+
+WHY NEED ARRAYS WHEN WE CAN CREATE INFINITE NUMBER OF VARIABLES?
+
+What happens when we create too many variables?
+-----------------------------------------------------------------------
+1. Editor (the place where we write code) will be filled with VARIABLES
+2. It is tough to refer to a variable immediately
+3. Taking input and printing output is tough
+4. Ramdom memory allocation
+5. A good program needs to always give the output in the best way possible by using least memory and less time complexity
+
+
+1) How to declare an Array?
+
+    We declare int a; 
+    this means that gives line declares a variable a,
+    which is of integer data type, 
+
+    Simillary to declare an Array of integers, we do it as..
+    int a[5];
+    This means that declare an array of integer datatype,
+    which can hold 5 int values..
+
+    int         a          [5]
+    |           |           |
+    |           |           |
+    datatype variable Name  size    ----  [] is known as subscript of the array
+
+                a - 10 bytes
+    0           1           2           3           4    
+    -----------------------------------------------------
+    a[0]        a[1]        a[2]        a[3]        a[4]
+
+    Now there is something important ,
+    -> 0 ,1,2,3,4 are called indexes of the array.. 
+    -> index of an array of any datatype starts with 0 to size-1
+    -> example here we declared 5 int data types then,,.. indexes of these would be 0 to 4
+    -> these indexes are \used to refer to the value of the variable in that particular index..
+
+2) How are these helpful?
+
+    -> indtead of using int a,b,c,d,e
+    -> i can use only one variable.. int a[5]..
+    -> this makes things easier and smooth.. (to code)
