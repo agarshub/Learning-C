@@ -43,3 +43,6 @@ Some important points
 3. If we know that how many times the number of times loop is gonna run ,.. use for loop... 
 4. but if we have no idea of about how many times the loop can run based on a condition which we dont know.. its better to use while loop
 5. This simple strategy might be helpful in solving the codes.
+
+Note that in Do while loops the statements inside the loop is executed atleast one time 
+while in while and for loop it maynot be necessary that the loops maybe executed atleast once(since the condition might fail)
