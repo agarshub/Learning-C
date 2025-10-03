@@ -1,4 +1,4 @@
-Loops(p90 - p)
+Loops
 -----
 
 -> Loops are just like goto statements but they are more readble since the conditions are previously known.
