@@ -18,3 +18,8 @@ int main()
 
     return 0;
 }
+
+/*
+here we need not initialize the array alwayy
+we can also read the values from the user using scanf statement using a loop
+*/
