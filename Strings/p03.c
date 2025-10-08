@@ -13,7 +13,7 @@ int main()
     puts(x);
 
     strupr(x);
-    printf("The string in upper case");
+    printf("The string in upper case is %s\n",x);
     
     return 0;
 }
