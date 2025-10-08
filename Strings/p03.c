@@ -1,6 +1,7 @@
 /* Write a program to convert the string into uppercase. */
 
 #include<stdio.h>
+#include<string.h>
 
 int main()
 {
