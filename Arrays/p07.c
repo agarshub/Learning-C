@@ -54,3 +54,8 @@ n-1 is the index of the last element in the array
 i >= 0 is the condition to stop the loop when i becomes less than 0
 here starting from 4 to 0 we printing a[4], then a[3], then a[2], then a[1], then a[0]..
 */
+
+// note that printing the array in reverse order does not change the original array
+// if you want to change the original array then you have to reverse the array using swapping logic which p08.c
+// here we are just printing the array in reverse order without changing the original array
+// so the original array remains the same
