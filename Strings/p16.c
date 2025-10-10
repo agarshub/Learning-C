@@ -1,4 +1,4 @@
-/* Write a program */
+/* Write a program to compare n chars of two strings... */
 
 #include<stdio.h>
 #include<string.h>
@@ -29,3 +29,9 @@ int main()
     
     return 0;
 }
+
+/*
+strncmp(x,y,n) is used to compare n chars of string x with string y
+
+it uses compare logic by subtracting n chars of y - n chars in x
+*/
