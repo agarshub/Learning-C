@@ -28,3 +28,18 @@ int main()
     
     return 0;
 }
+
+/*
+note that 
+ascii values of a-z is 97-122
+
+A-Z is 65 - 90
+
+strcmp compares the ascii values
+
+it does as following
+
+strcmp(x,y)
+ascii value of x - ascii value of y
+so hence we have the result as big..
+*/
