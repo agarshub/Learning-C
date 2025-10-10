@@ -1,4 +1,4 @@
-/* Write a program to */
+/* Write a program to compare two strings and print the largest of both strings,,*/
 
 #include<stdio.h>
 #include<string.h>
