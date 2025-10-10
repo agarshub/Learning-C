@@ -13,7 +13,7 @@ int main()
     printf("The given strings %s %s \n",x,y);
     strcat(x,y);
 
-    printf("The final string is %s \n",x);
+    printf("The final strings are x = %s y = %s\n",x,y);
 
     return 0;
 }
